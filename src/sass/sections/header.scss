@@ -112,6 +112,7 @@
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
+    z-index: 999;
   }
 @media (min-width: 768px){
     .hamburger-menu{
@@ -205,6 +206,10 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+}
+
+.content-box{
+    display: flex;
 }
 
 .btn-download{
