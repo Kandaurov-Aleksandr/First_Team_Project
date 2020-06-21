@@ -26,7 +26,9 @@ img {
 
 @media (max-width: 767px) {
   .container {
-    width: 292px;
+    width: auto;
+    max-width: 550px;
+    padding: 0 10px;
     margin: 0 auto;
   }
 }
