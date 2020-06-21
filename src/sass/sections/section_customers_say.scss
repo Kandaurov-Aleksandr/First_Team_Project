@@ -18,40 +18,31 @@
   }
 }
 
-.customers_title::before {
+.sections-site__heading {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+.left-line-black::before{
   content: '';
-  position: relative;
-  left: 20px;
-  top: 19px;
-  display: block;
-  border: none;
+  display: inline-block;
   width: 60px;
   height: 1px;
-  background-color: rgb(81, 93, 100);
-  margin-bottom: 7px;
-  margin-right: 20px;
-  @media (min-width: 1199px) {
-    top: 19px;
-    left: 450px;
-  }
+  background: $primary-black-color;    
+  position: relative;
+  margin-right: 15px;
 }
 
-.customers_title::after {
+.right-line-black::before{
   content: '';
-  position: relative;
-  left: 190px;
-  bottom: 45px;
-  display: block;
-  border: none;
+  display: inline-block;
   width: 60px;
   height: 1px;
-  background-color: #515d64;
-  margin-bottom: 7px;
-  margin-left: 20px;
-  @media (min-width: 1199px) {
-    bottom: 15px;
-    left: 785px;
-  }
+  background: $primary-black-color;
+  position: relative;
+  margin-left: 15px;
+      
 }
 
 .customers-card {
@@ -125,39 +116,12 @@
       font-size: 28px;
       //   width: auto;
       height: 30px;
-      margin: auto;
+      margin: 0;
       margin-bottom: 50px;
     }
   }
 
-  .customers_title::before {
-    content: '';
-    position: relative;
-    left: 1px;
-    top: 1px;
-    display: inline-block;
-    vertical-align: middle;
-    border: none;
-    width: 60px;
-    height: 1px;
-    background-color: rgb(81, 93, 100);
-    margin-bottom: 7px;
-  }
 
-  .customers_title::after {
-    content: '';
-    position: relative;
-    left: 1px;
-    top: 1px;
-    display: inline-block;
-    vertical-align: middle;
-    border: none;
-    width: 60px;
-    height: 1px;
-    background-color: #515d64;
-    margin-bottom: 7px;
-    margin-left: 20px;
-  }
 
   .customers-card {
     margin-bottom: 50px;
@@ -213,34 +177,6 @@
     }
   }
 
-  .customers_title::before {
-    content: '';
-    position: relative;
-    left: 1px;
-    top: 1px;
-    display: inline-block;
-    vertical-align: middle;
-    border: none;
-    width: 60px;
-    height: 1px;
-    background-color: rgb(81, 93, 100);
-    margin-bottom: 7px;
-  }
-
-  .customers_title::after {
-    content: '';
-    position: relative;
-    left: 1px;
-    top: 1px;
-    display: inline-block;
-    vertical-align: middle;
-    border: none;
-    width: 60px;
-    height: 1px;
-    background-color: #515d64;
-    margin-bottom: 7px;
-    margin-left: 20px;
-  }
 
   .customers-card {
     width: auto;
